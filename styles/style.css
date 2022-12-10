@@ -19,8 +19,8 @@
 }
 
 .logo {
-  width: 64px;
-  height: 228px;
+  height: 64px;
+  width: 228px;
 }
 
 .logo_place_header {
@@ -63,6 +63,7 @@
   font-size: 18px;
   line-height: 25px;
   font-style: normal;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -134,28 +135,21 @@
 }
 
 .digits {
-  padding: 100px 0 100px 0;
+  padding: 0 0 100px 0;
 }
 
 .section-title {
   width: 60%;
   margin: auto;
   font-size: 60px;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 600;
 }
 
 .section-subtitle {
   width: 60%;
   margin: 20px auto 0 auto;
-}
-
-.h1_title-style {
-  line-height: 1.15;
-  font-size: 60px;
-  text-align: center;
-  font-weight: 600;
-}
-
-.h2_subtitle-style {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -177,6 +171,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .table__heading {
@@ -199,7 +194,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   display: flex;
   position: relative;
   background-color: #f2f2f2;
@@ -221,6 +216,9 @@
   font-size: 120px;
   width: 648px;
   margin: 0;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 600;
 }
 
 .feynman__subtitle {
