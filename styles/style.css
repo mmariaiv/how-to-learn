@@ -18,7 +18,7 @@
   background-color: #f2f2f2;
 }
 
-.logo {
+.header__logo {
   height: 64px;
   width: 228px;
 }
@@ -341,7 +341,7 @@
   margin: 0 0 20px 0;
 }
 
-.logo__foooter-img {
+.footer__logo {
   width: 228px;
   height: 32px;
 }
