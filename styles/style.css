@@ -18,8 +18,8 @@
   background-color: #f2f2f2;
 }
 
-.header__logo {
-  height: 64px;
+.logo {
+  height: 32px;
   width: 228px;
 }
 
@@ -291,6 +291,7 @@
 
 .footer__columns {
   width: 90%;
+  min-height: 250px;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -340,9 +341,4 @@
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 20px 0;
-}
-
-.footer__logo {
-  width: 228px;
-  height: 32px;
 }
