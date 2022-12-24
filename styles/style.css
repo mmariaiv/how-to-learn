@@ -134,6 +134,79 @@
   font-weight: normal;
 }
 
+.techniques {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0 auto;
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  margin: 0 100px 0 0;
+  padding: 60px 0 0 0;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  margin: 0 auto 43px auto;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.cards__description {
+  margin: 16px 0 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video {
+  padding-top: 100px;
+  position: relative;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  overflow: visible;
+}
+
+/* TO:DO */
+/* Поменять margin в two-columns на padding в секции oakley и description */
+/* проверить отступы между секциями
+допилить секцию видео и оакли */
+
+.video__iframe {
+  margin: 0 20px 0 0;
+}
+
+.video__iframe:nth-of-type(2n) {
+  margin: 0;
+}
+
 .digits {
   padding: 0 0 100px 0;
 }
@@ -242,6 +315,81 @@
   z-index: 0;
 }
 
+.khan {
+  padding-top: 105px;
+  padding-bottom: 0;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 0 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 36px 0 10px 0;
+}
+
+.khan__quote-author-subline {
+  padding: 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  margin: 68px 0 0 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.khan__book-pic {
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  width: 608px;
+  height: 620px;
+  background-image: url("../images/khan-book.jpg");
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: 48px;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -280,6 +428,24 @@
 
 .table__row_theme_dark {
   margin-top: 0;
+}
+
+.resources {
+  padding-top: 100px;
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0 auto;
+  padding: 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer {
