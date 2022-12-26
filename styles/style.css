@@ -82,17 +82,23 @@
 .link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
 }
 
-.desctription {
-  padding: 100px 0 100px 0;
+.link:hover {
+  opacity: 0.5;
+}
+
+.description {
+  padding: 100px 0;
   background-color: white;
 }
 
 .two-columns {
   width: 80%;
   display: flex;
-  margin: 100px auto;
+  margin: 0 auto;
   justify-content: space-between;
   position: relative;
 }
@@ -142,21 +148,17 @@
 
 .cards {
   margin: 0 auto;
+  padding-top: 60px;
   display: flex;
   width: 920px;
   flex-wrap: wrap;
+  gap: 60px 100px;
 }
 
 .cards__item {
-  margin: 0 100px 0 0;
-  padding: 60px 0 0 0;
-  width: 240px;
+  max-width: 240px;
   display: flex;
   flex-direction: column;
-}
-
-.cards__item:nth-of-type(3n) {
-  margin-right: 0;
 }
 
 .cards__image {
@@ -184,31 +186,27 @@
 
 .video {
   padding-top: 100px;
-  position: relative;
 }
 
 .video__iframes {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  overflow: visible;
+  column-gap: 20px;
+  position: relative;
+  top: 50px;
 }
-
-/* TO:DO */
-/* Поменять margin в two-columns на padding в секции oakley и description */
-/* проверить отступы между секциями
-допилить секцию видео и оакли */
 
 .video__iframe {
-  margin: 0 20px 0 0;
-}
-
-.video__iframe:nth-of-type(2n) {
   margin: 0;
 }
 
+.oakley {
+  padding: 160px 0 0 0;
+  background-color: #f2f2f2;
+}
+
 .digits {
-  padding: 0 0 100px 0;
+  padding: 100px 0 100px 0;
 }
 
 .section-title {
@@ -448,6 +446,15 @@
   margin: 0;
 }
 
+.recources__link {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.recources__link:hover {
+  opacity: 0.5;
+}
+
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
@@ -500,6 +507,12 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 .footer__column-heading {
