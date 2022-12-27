@@ -6,15 +6,3 @@
   padding-bottom: 90px;
   z-index: 0;
 }
-
-.kaufman__triangle {
-  position: absolute;
-  width: 877px;
-  height: 877px;
-  right: -210px;
-  top: 0;
-  z-index: -1;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-repeat: no-repeat;
-  background-size: 877px 877px;
-}
