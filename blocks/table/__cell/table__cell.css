@@ -1,8 +1,5 @@
 .table__cell {
   width: 250px;
   padding: 0;
-}
-
-.table__cell > p:last-of-type {
-  margin: 20px 0 0 0;
+  margin: 0;
 }
